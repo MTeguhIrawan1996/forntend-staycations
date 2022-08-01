@@ -3,7 +3,7 @@ import Button from "elements/Button";
 
 export default function MostPicked(props) {
   return (
-    <section className="container">
+    <section className="container" ref={props.refMostPicked}>
       <h4 className="mb-3 text-primary" data-aos="fade-up" data-aos-delay="100">
         Most Picked
       </h4>
@@ -18,7 +18,7 @@ export default function MostPicked(props) {
                   : " row-1 column-sm-6"
               }`}
               data-aos="fade-up"
-              data-aos-delay="200"
+              data-aos-delay={200 * index}
             >
               <div className="card card-featured">
                 <div className="tag">
