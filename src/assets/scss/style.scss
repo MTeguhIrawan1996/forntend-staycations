@@ -4,7 +4,7 @@
  * Copyright 2011-2019 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
-
+@import "colorVariables";
 @import "functions";
 @import "variables";
 @import "mixins";
@@ -200,4 +200,14 @@ header {
 
 section {
   margin-bottom: 100px;
+}
+
+.testimonial-hero,
+.testimonial-hero img {
+  width: 345px;
+  height: 435px;
+}
+
+.testimonial-hero {
+  margin: 30px 0 0 30px;
 }
