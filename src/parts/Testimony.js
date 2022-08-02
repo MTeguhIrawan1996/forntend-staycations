@@ -13,18 +13,20 @@ export default function Testimony({ data }) {
             data-aos="fade-up"
             data-aos-delay="200"
           >
-            <img
-              src={data.imageUrl}
-              alt="Testimonial image"
-              className="position-absolute"
-              style={{ zIndex: 1 }}
-            />
-            <img
-              src={TestimonialFrame}
-              alt="Testimonial frame"
-              className="position-absolute"
-              style={{ margin: "-30px 0 0 -30px" }}
-            />
+            <div>
+              <img
+                src={data.imageUrl}
+                alt="Testimonial-image"
+                className="position-absolute"
+                style={{ zIndex: 1 }}
+              />
+              <img
+                src={TestimonialFrame}
+                alt="Testimonial-frame"
+                className="position-absolute"
+                style={{ margin: "-30px 0 0 -30px" }}
+              />
+            </div>
           </div>
         </div>
         <div className="col" data-aos="fade-up" data-aos-delay="300">
