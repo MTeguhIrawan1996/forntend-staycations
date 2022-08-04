@@ -13,10 +13,10 @@ export default function Hero(props) {
   return (
     <section className="container">
       <div className="row align-items-center">
-        <div className="col-lg-6 pl-4" data-aos="fade-up" data-aos-delay="100">
+        <div className="col-lg-6 pl-4" data-aos="fade-up" data-aos-delay="200">
           <h1 className="font-weight-bold line-height-1 mb-3">
-            Forget Busy Work,
-            <br /> Start Next Vacations
+            Buat Kenangan Anda,
+            <br /> Lebih Berkesan
           </h1>
           <p
             className="mb-3 font-weight-light text-gray-500"
@@ -79,7 +79,7 @@ export default function Hero(props) {
         <div
           className="col-lg-5 pl-5 pt-3 d-none d-lg-block"
           data-aos="fade-up"
-          data-aos-delay="200"
+          data-aos-delay="400"
         >
           <div style={{ height: 400 }}>
             <img

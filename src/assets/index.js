@@ -6,6 +6,7 @@ import TestimonialFrame from "./images/testimonial-landingpages-frame.jpg";
 import IcCities from "./images/icons/ic_cities.svg";
 import IcTraveler from "./images/icons/ic_traveler.svg";
 import IcTreasure from "./images/icons/ic_treasure.svg";
+import IcCalendar from "./images/icons/ic_calendar.svg";
 
 export {
   HeroImg,
@@ -14,4 +15,5 @@ export {
   IcCities,
   IcTraveler,
   IcTreasure,
+  IcCalendar,
 };

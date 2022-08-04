@@ -7,6 +7,11 @@
   column-gap: 30px;
   position: relative;
   z-index: 3;
+  &.sm {
+    grid-auto-rows: minmax(245, auto);
+    row-gap: 10px;
+    column-gap: 10px;
+  }
   .item {
     &.column-sm-1 {
       grid-column-end: span 1;
@@ -59,12 +64,6 @@
   }
 
   @include media-breakpoint-up(lg) {
-    &.sm {
-      grid-auto-rows: minmax(245, auto);
-      row-gap: 10px;
-      column-gap: 10px;
-    }
-
     .item {
       &.column-1 {
         grid-column-end: span 1;

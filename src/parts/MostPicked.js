@@ -18,7 +18,7 @@ export default function MostPicked(props) {
                   : " row-1 column-sm-6"
               }`}
               data-aos="fade-up"
-              data-aos-delay={200 * index}
+              data-aos-delay={200 * (index + 1)}
             >
               <div className="card card-featured">
                 <div className="tag">
